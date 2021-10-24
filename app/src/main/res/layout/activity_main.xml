@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/increment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="increment"
+        android:padding="25dp"
+        android:text="@string/increment"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/count"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="resetvalue"
+        android:padding="25dp"
+        android:text="@string/reset"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/decrement"
+        android:layout_width="161dp"
+        android:layout_height="75dp"
+        android:minWidth="48dp"
+        android:onClick="@string/count"
+        android:text="@string/decrement" />
+
+
+</LinearLayout>
