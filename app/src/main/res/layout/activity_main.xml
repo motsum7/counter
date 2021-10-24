@@ -41,7 +41,7 @@
         android:layout_width="161dp"
         android:layout_height="75dp"
         android:minWidth="48dp"
-        android:onClick="@string/count"
+        android:onClick="decrement"
         android:text="@string/decrement" />
 
 
